@@ -1,0 +1,78 @@
+# PrimeMart Retail Ltd. — Sales Analysis
+
+## Project Overview
+
+This is a SQL data analysis project based on a fictional retail company operating in Lagos, Abuja, and Kano, Nigeria.
+
+The project uses MySQL to analyze product revenue, sales volume, branch performance, and average revenue per order. The goal is to turn sales data into useful business insights and recommendations.
+
+**Analyst:** Orem Robert Thompson
+**Tool:** MySQL Workbench
+**Language:** SQL
+**Industry:** Retail
+
+## Business Questions
+
+1. How much revenue has the company generated?
+2. Which products generate the most revenue?
+3. Which branches perform best?
+4. Which products should management consider promoting?
+5. What actions could improve sales performance?
+
+## Key Findings
+
+* **Total revenue:** ₦7,052,000
+* **Total units sold:** 136
+* **Total orders:** 15
+* **Highest-revenue branch:** Lagos
+* **Highest-revenue product:** Phone
+* **Highest-volume product:** Cooking Oil
+
+## Product Performance
+
+| Product         | Units Sold |    Revenue |
+| --------------- | ---------: | ---------: |
+| Phone           |          7 | ₦1,750,000 |
+| Rice Bag        |         30 | ₦1,650,000 |
+| Laptop          |          4 | ₦1,600,000 |
+| Cooking Oil     |         51 | ₦1,122,000 |
+| Blender         |         18 |   ₦540,000 |
+| Electric Kettle |         26 |   ₦390,000 |
+
+## Branch Performance
+
+| Branch | Orders | Units Sold |    Revenue |
+| ------ | -----: | ---------: | ---------: |
+| Lagos  |      5 |         32 | ₦2,990,000 |
+| Abuja  |      6 |         46 | ₦2,317,000 |
+| Kano   |      4 |         58 | ₦1,745,000 |
+
+Lagos generated the highest revenue, while Kano sold the highest number of units.
+
+## Business Recommendations
+
+1. Investigate the sales strategies and product mix contributing to Lagos's performance.
+2. Test complementary-product offers in Abuja to increase average revenue per order.
+3. Review Kano's product mix to identify opportunities to increase revenue.
+4. Test targeted promotions and measure their results before expanding them.
+5. Improve inventory planning using product-level and branch-level sales data.
+6. Track revenue, order volume, units sold, and average revenue per order regularly.
+
+## SQL Skills Demonstrated
+
+* SELECT statements
+* Aggregate functions: SUM and COUNT
+* JOIN operations
+* GROUP BY and ORDER BY
+* Subqueries
+* ROUND and calculated fields
+* Revenue contribution calculations
+* Business interpretation of query results
+
+## Limitations
+
+This is a fictional practice project. The analysis measures recorded sales revenue, not profit. Verified product costs, profit margins, and the reporting period were not available.
+
+## Conclusion
+
+This project demonstrates how SQL can help analyze retail sales, compare branch performance, identify high-performing products, and develop data-informed business recommendations.
